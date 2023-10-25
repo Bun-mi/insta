@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contain{
+    display: flex;
+}
+
+.contain .sidebar{
+    width: 242px;
+    height: 650px;
+    border-right: 1px solid black;
+    position: sticky;
+    background-color: white;
+}
+
+.logo{
+    will-change: 240px;
+    height: 65px;
+    margin-left: 60px;
+}
+
+.logo img{
+    width: 90px;
+    height: 50px;
+}
+
+.controls a button{
+    width: 240px;
+    height: 65px;
+    border: none;
+    background-color: transparent;
+}
+.controls button select{
+    width: 237px;
+    height: 60px;
+    border: none;
+    background-color: white;
+    text-align: center;
+}
+
+.content{
+    width: 100%;
+    padding: 30px;
+    margin: 5px;
+}
+
+.content .topbar .statuswrap{
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    padding: 10px;
+    padding-right: 0px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.content .topbar .statuswrap .stats-card .dp{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 3px;
+    background-image: linear-gradient(-90deg, purple,crimson,orange) ;
+}
+
+.content .topbar .statuswrap .stats-card .dp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #dfdfdf;
+}
+
+.content .topbar .statuswrap .stats-card .username{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.endbar{
+    width: 55%;
+    padding: 30px;
+    margin: 5px;
+    position: sticky;
+}
+
+.endbar .User{
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    padding: 10px;
+    padding-right: 0px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.endbar .User .stats-card{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.endbar .User .stats-card .prof{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.endbar .User .stats-card .dp{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 3px;
+    background-image: linear-gradient(-90deg, purple,crimson,orange) ;
+}
+
+.endbar .User .stats-card .dp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #dfdfdf;
+}
+
+.endbar .User .stats-card .username{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.sug section{
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    padding: 10px;
+    padding-right: 0px;
+    border-radius: 2px;
+    align-items: center;
+}
+
+.sug section .jd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sug section .gbx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sug section .gbx .prof{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.sug section .gbx .prof .dp{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 3px;
+    background-image: linear-gradient(-90deg, purple,crimson,orange);
+}
+
+.sug section .gbx .prof .dp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #dfdfdf;
+}
+
+.main{
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    padding: 10px;
+    padding-right: 0px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+}
+
